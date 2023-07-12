@@ -13,7 +13,7 @@ nav
 }
 .logo h1
 {
-    font-size: 6vh;
+    font-size: 4vh;
     font-weight: bold;
     color: orangered;
 }
@@ -28,7 +28,7 @@ nav
 {
     color: black;
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .menu a:hover
 {
@@ -55,7 +55,7 @@ nav
 }
 .sec1 .content .col1 img
 {
-    width: 68%;
+    width: 60%;
 }
 .sec1 .content .col2
 {
@@ -66,12 +66,12 @@ nav
 }
 .sec1 .content .col2 h1
 {
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: orangered;
 }
 .sec1 .content .col2 h4
 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight:100;
 }
 .sec2
@@ -91,13 +91,13 @@ nav
 }
 .sec2 .content h1
 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: white;
 }
 
 .sec2 .content h4
 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     font-weight: 100;
     color: white;
@@ -119,7 +119,7 @@ nav
 }
 .sec3 h1
 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: white;
     margin-bottom: 4%;
 }
@@ -140,7 +140,7 @@ nav
     width: 100%;
     border: none;
     padding: 3%;
-    font-size: 2vw;
+    font-size: 1.8vw;
     background-color: #3F82FB;
     color: white;
 }
@@ -152,15 +152,15 @@ nav
 .sec3 .content .card .bottom
 {
     padding: 10%;
-    height: 8vh;
+    height: 10vw;
 }
 .sec3 .content .card .bottom h2
 {
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 .sec3 .content .card .bottom p
 {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 .sec4
 {
@@ -168,12 +168,12 @@ nav
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:greenyellow;
+    background-color:rgb(134, 207, 25);
     padding: 10%;
 }
 .sec4 h1
 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: orangered;
     margin-bottom: 4%;
 }
@@ -181,7 +181,7 @@ nav
 {
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 2vw;
+    grid-column-gap: 1.8vw;
     width: 100%;
 }
 .sec4 .content .left
@@ -195,7 +195,7 @@ nav
 .sec4 .content .left h2
 {
     margin-bottom: 8%;
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 .sec4 .content .left a
 {
@@ -206,7 +206,7 @@ nav
     border-radius: 10px;
     padding: 20px;
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .sec4 .content .left a:nth-child(3)
 {
@@ -239,7 +239,7 @@ nav
     display: flex;
     flex-direction: column;
     width: 100%;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .sec4 input[type=text], select, textarea {
     width: 100%;
@@ -259,7 +259,7 @@ nav
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: 2vw;
+    font-size: 1vw;
   }  
   .footer
   {
@@ -284,5 +284,5 @@ nav
   {
     text-decoration: none;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
   }
