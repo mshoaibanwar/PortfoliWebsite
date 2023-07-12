@@ -1,0 +1,288 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.logo h1
+{
+    font-size: 6vh;
+    font-weight: bold;
+    color: orangered;
+}
+.menu
+{
+    display: flex;
+    width: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 3vh;
+}
+.menu a:hover
+{
+    cursor: pointer;
+    color: brown;
+}
+.sec1
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.sec1 .content
+{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    
+    color: white;
+    padding: 10%;
+}
+.sec1 .content .col1
+{
+    justify-self: end;
+}
+.sec1 .content .col1 img
+{
+    width: 68%;
+}
+.sec1 .content .col2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+.sec1 .content .col2 h1
+{
+    font-size: 5vw;
+    color: orangered;
+}
+.sec1 .content .col2 h4
+{
+    font-size: 4vw;
+    font-weight:100;
+}
+.sec2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-color: #3F82FB;
+}
+.sec2 .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .content h1
+{
+    font-size: 4vw;
+    color: white;
+}
+
+.sec2 .content h4
+{
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 100;
+    color: white;
+}
+.sec3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 79, 20);
+    padding: 10%;
+}
+.sec3 .content
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2vw;
+}
+.sec3 h1
+{
+    font-size: 4vw;
+    color: white;
+    margin-bottom: 4%;
+}
+.sec3 .content .card
+{
+    background-color:wheat;
+    border-radius: 20px;
+    overflow: hidden;
+    width: min-content;
+    border: 0.5px solid #3F82FB;
+}
+.sec3 .content .card img
+{
+    width: 25vw;
+}
+.sec3 .content .card button
+{
+    width: 100%;
+    border: none;
+    padding: 3%;
+    font-size: 2vw;
+    background-color: #3F82FB;
+    color: white;
+}
+.sec3 .content .card button:hover
+{
+    cursor: pointer;
+    background-color: #2469ea;
+}
+.sec3 .content .card .bottom
+{
+    padding: 10%;
+    height: 8vh;
+}
+.sec3 .content .card .bottom h2
+{
+    font-size: 2vw;
+}
+.sec3 .content .card .bottom p
+{
+    font-size: 1.5vw;
+}
+.sec4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:greenyellow;
+    padding: 10%;
+}
+.sec4 h1
+{
+    font-size: 4vw;
+    color: orangered;
+    margin-bottom: 4%;
+}
+.sec4 .content
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2vw;
+    width: 100%;
+}
+.sec4 .content .left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sec4 .content .left h2
+{
+    margin-bottom: 8%;
+    font-size: 2.5vw;
+}
+.sec4 .content .left a
+{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    background-color: #0077b5;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 2vw;
+}
+.sec4 .content .left a:nth-child(3)
+{
+    background-color: black;
+}
+.sec4 .content .left a:nth-child(4)
+{
+    background-color: #fb3958;
+}
+.sec4 .content .left a:nth-child(5)
+{
+    background-color:blueviolet;
+}
+.sec4 .content .left a:hover
+{
+    cursor: pointer;
+}
+.sec4 .content .right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4 .content .right .container
+{
+    width: 70%;
+}
+.sec4 .content .right form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 2vw;
+}
+.sec4 input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-size: 1.5vw;
+  }
+  .sec4 input[type=submit] {
+    background-color: #3F82FB;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2vw;
+  }  
+  .footer
+  {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+  }
+  .footer h1
+  {
+    color: orangered;
+    font-size: 3vw;
+    margin-bottom: 2%;
+  }
+  .footer .content
+  {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  .footer .content a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+  }
